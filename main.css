@@ -1,0 +1,251 @@
+body { font-family: Verdana, Arial, sans-serif;
+       background-color: #3399ee;}
+
+header a { text-decoration: none;}
+
+main { margin-left: 780px;
+       margin-right: 40px;
+       margin-bottom: 450px;
+       color: #000000;
+       font-size: 20pt;
+       font-family: Verdana, Arial, sans-serif;}
+
+h1 { color: #ffffff;
+     padding: 20px;
+     text-align: center;
+     font-weight: bold;
+     font-style: italic;
+     font-family: cursive, Times New Roman, sans-serif;
+     background-image: linear-gradient(to left, #000055, #696969, #000055);
+     margin-left: 40px;
+     margin-right: 40px;}
+
+h2 { text-align: center;
+     color: #000000;
+     margin-top: 50px;
+     font-size: 22pt;
+     font-family: Verdana, Arial, sans-serif;}
+
+nav { font-weight: bold;
+      background-image: linear-gradient(to left, #000055, #696969, #000055);
+      margin-left: 40px;
+      margin-right: 40px;
+      margin-top: -22px;}
+
+nav li { display: block;
+         width: 17.5%;
+         padding: 15px;}
+
+nav ul { display: flex;
+         flex-direction: row;
+         text-align: center;
+         text-decoration: none;}
+
+nav a { text-decoration: none;}
+
+nav a:link { color: #ffffff;}
+
+nav a:hover { color: #3399ee;}
+
+nav a:visited { color: #22b9b9;}
+
+footer { text-align: center;
+         color: #000000;
+         font-style: italic;}
+
+
+
+#homeimage { width: auto;
+             max-width: 100%;
+             height: auto;
+             max-height: 100%;
+             background-repeat: no-repeat;
+             float: left;
+             margin-left: 40px;}
+
+.pastmain { margin-left: 40px;
+            margin-bottom: 800px;
+            text-align: left;}
+
+#pastimage { width: auto;
+             max-width: 75%;
+             height: auto;
+             max-height: 400px;
+             background-repeat: no-repeat;
+             float: right;
+             margin-right: 500px;
+             margin-top: 20px;}
+
+.pastimage { position: absolute;
+             width: auto;
+             max-width: 90%;
+             height: auto;
+             max-height: 90%;
+             margin-bottom: 40px;}
+
+.pastvideo { position: absolute;
+             width: auto;
+             max-width: 90%;
+             height: auto;
+             max-height: 90%;
+             margin-top: 20px;
+             margin-left: 0px;}
+
+#futureimage { width: auto;
+               max-width: 100%;
+               height: auto;
+               max-height: 50%;
+               background-repeat: no-repeat;
+               float: left;
+               margin-left: 40px;}
+
+#aboutimage { width: auto;
+              max-width: 100%;
+              height: auto;
+              max-height: 75%;
+              background-repeat: no-repeat;
+              float: left;
+              margin-left: 40px;}
+
+#equipmentimage { width: auto;
+                  max-width: 100%;
+                  height: auto;
+                  max-height: 25%;
+                  background-repeat: no-repeat;
+                  float: left;
+                  margin-left: 40px;}
+
+.faq { text-align: left;
+       margin-left: 40px;
+       margin-bottom: 40px;}
+
+.request { text-align: left;
+           margin-left: 40px;
+           margin-bottom: 40px;}
+
+table { width: 100%;}
+
+table, th, td { border: 5px solid black;
+                background-color: #696969;
+                border-collapse: collapse;
+                color: #ffffff;}
+
+form { text-align: left;
+       color: #000000;
+       background-color: #696969;
+       margin-bottom: 40px;
+       border: 5px solid black;}
+
+input[type=text] { width: 85%;
+                   height: 25px;
+                   border: 3px solid black;
+                   margin-left: 10px;}
+
+input[type=email] { width: 85%;
+                    height: 25px;
+                    border: 3px solid black;
+                    margin-left: 10px;}
+
+input[type=tel] { width: 90%;
+                  height: 25px;
+                  border: 3px solid black;
+                  margin-left: 10px;}
+
+input[type=date] { width: 90%;
+                   height: 25px;
+                   border: 3px solid black;
+                   margin-left: 10px;}
+
+textarea { resize: none;
+           border: 3px solid black;
+           margin-left: 10px;}
+
+input[type=submit] { margin-left: 15px;
+                     margin-bottom: 10px;
+                     width: 150px;
+                     height: 40px;
+                     border: 3px solid black;}
+
+input[type=reset] { width: 150px;
+                    height: 40px;
+                    border: 3px solid black;
+                    margin-left: 10px;}
+
+@media only screen and (max-width: 1024px){
+    
+    .homeimage { width: auto;
+                 max-width: 100%;
+                 height: auto;
+                 max-height: 100%;}
+    
+    .pastmain { margin-bottom: 650px;}
+    
+    #pastimage { margin-right: 400px;
+                 margin-left: 200px;}
+    
+    .pastimage { width: auto;
+                 max-width: 36.5%;
+                 height: auto;
+                 max-height: 100%;
+                 margin-bottom: 40px;
+                 margin-left: 60px;}
+    
+    .pastvideo { width: auto;
+                 max-width: 30%;
+                 height: auto;
+                 max-height: 100%;
+                 float: left;}
+    
+    #futureimage { margin-right: 40px;
+                   margin-bottom: 20px;}
+    
+    .futureimage { width: auto;
+                   max-width: 100%;
+                   height: auto;
+                   max-height: 100%;}
+    
+    #aboutimage { margin-right: 40px;
+                  margin-bottom: 20px;}
+    
+    #equipmentimage { margin-right: 40px;
+                      margin-bottom: 20px;}
+    
+    .request { text-align: left;}
+    
+    h2 { width: 650px;
+         text-align: left;}
+    
+    main { margin-left: 40px;
+           margin-bottom: 40px;
+           margin-top: 30px;}
+    
+}
+
+@media only all and (max-width: 768px) {
+    
+    .pastmain { margin-bottom: 600px;}
+    
+    #pastimage { float: left;
+                 margin-left: 40px;}
+    
+    .pastimage { width: auto;
+                 max-width: 75%;
+                 height: auto;
+                 max-height: 75%;
+                 margin-left: -20px;}
+    
+    .pastvideo { display: none;}
+    
+    #aboutimage { width: auto;
+                  max-width: 100%;}
+    
+    nav ul { display: block;
+             margin-left: -40px;
+             text-align: left;}
+    
+    h2 { text-align: left;
+         width: auto;
+         font-size: 18pt;}
+
+}
+
